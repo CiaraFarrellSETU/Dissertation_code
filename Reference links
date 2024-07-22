@@ -8,4 +8,6 @@ classification report: https://scikit-learn.org/stable/modules/generated/sklearn
 confusion matrix: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html  
 mount google drive: https://saturncloud.io/blog/how-to-import-files-from-google-drive-to-colab/  
 zip file: https://www.geeksforgeeks.org/working-zip-files-python/  
-timeit: https://docs.python.org/3/library/timeit.html
+timeit: https://docs.python.org/3/library/timeit.html  
+scikit-learn: https://scikit-learn.org/stable/  
+tensorflow: https://www.tensorflow.org/
