@@ -10,4 +10,6 @@ The codes are;
 
 I have also included a links section which has all the links to websites and tutorials used in the learning and creation of the machine learning models.  
 
-There is also a results section, this section contains the accuracy, classification report, confusion matrix and time taken to run for each machine learning model using different epoch sizes.
+There also is a link to my google drive to download the dog eye images zip file.  
+
+There is also a results section (6 classes document), this section contains the accuracy, classification report, confusion matrix and time taken to run for each machine learning model using different epoch sizes.
