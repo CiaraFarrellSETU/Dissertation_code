@@ -2,7 +2,7 @@
 * To begin with  loss of categorical.crossentropy gave ValueError: Shapes (None, 1) and (None, 3) are incompatible
   Then when changed from loss of categorical.crossentropy to sparse..... recieved an error of Received a label value of 1 which is outside the valid range of [0, 1) - Python, Keras   
   When changed to binary crossentropy recieved an error of Tensorflow estimator ValueError: `logits` and `labels` must have the same shape, received ((None, 3) vs (None, 1))  
-  This was resoved by ensuring tf.keras.layers.Dense(##, activation='softmax')(x)  
+  This was resoved by ensuring tf.keras.layers.Dense(##, activation='softmax')(x)
   ## needs to be the number of classes being used once this change is made the loss should work fro the adam optimiser
 * VGG19 had issues of the model fit not running this was fixed by ensuring the image size is correct and checking the  shape and data type of true_labels and predictions
 * There was an issue when running the model fit that the computed loss was NaN this was fixed by increasing the learing rate
