@@ -1,1 +1,2 @@
-
+# model fit errors due to the wrong optimizer: binary cross entropy is only used for two classes for more than two classes use categorical_crossentropy  
+#
